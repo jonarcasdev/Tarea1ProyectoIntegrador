@@ -4,7 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import About from "./pages/About";
 
 function App() {
