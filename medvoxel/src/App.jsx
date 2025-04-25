@@ -6,7 +6,7 @@ import { toKebabCase } from "./utils";
 import "./App.css";
 import Layout from "./components/Layout";
 import Navbar from "./components/Navbar"; // Importamos Navbar
-import Home from "./pages/Home";
+import Home from './pages/Home';
 import About from "./pages/About";
 import Modelos3D from "./pages/Modelos3D"; // Importamos Modelos3D
 
