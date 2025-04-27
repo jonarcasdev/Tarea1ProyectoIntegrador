@@ -46,23 +46,28 @@ const Home = () => {
         <h2>Enfermedades</h2>
         <div className="cards">
           <div className="card">
-            <h3>Enfermedad 1</h3>
-            <p>Descripción corta.</p>
+            <h3>Infarto agudo de miocardio</h3>
+            <p>Ocurre cuando una arteria coronaria se bloquea, interrumpiendo el flujo de sangre al corazón y causando la muerte del tejido,
+               lo que puede derivar en insuficiencia cardíaca o arritmias graves.</p>
+
             <button className="card-button">Saber más</button>
           </div>
           <div className="card">
-            <h3>Enfermedad 2</h3>
-            <p>Descripción corta.</p>
+            <h3>Insuficiencia cardíaca </h3>
+            <p> Sucede cuando el corazón no puede bombear suficiente sangre, generalmente por enfermedades cardíacas, causando disnea, 
+              fatiga y edemas.</p>
             <button className="card-button">Saber más</button>
           </div>
           <div className="card">
-            <h3>Enfermedad 3</h3>
-            <p>Descripción corta.</p>
+            <h3>Arritmias cardíacas</h3>
+            <p>  Son alteraciones en la conducción eléctrica del corazón que provocan ritmos anormales, como bradicardia, taquicardia o fibrilación,
+               y pueden aumentar el riesgo de accidente cerebrovascular o muerte súbita.</p>
             <button className="card-button">Saber más</button>
           </div>
           <div className="card">
-            <h3>Enfermedad 4</h3>
-            <p>Descripción corta.</p>
+            <h3>Hipertensión arterial (HTA)</h3>
+            <p>Es el aumento persistente de la presión arterial por encima de 140/90 mmHg, lo que sobrecarga el corazón y los vasos, 
+              favoreciendo enfermedades cardíacas, renales y cerebrovasculares.</p>
             <button className="card-button">Saber más</button>
           </div>
         </div>
