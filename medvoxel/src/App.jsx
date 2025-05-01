@@ -6,9 +6,11 @@ import { toKebabCase } from "./utils";
 import "./App.css";
 import Layout from "./components/Layout";
 import Navbar from "./components/Navbar"; // Importamos Navbar
-import Home from './pages/Home';
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Modelos3D from "./pages/Modelos3D"; // Importamos Modelos3D
+import Hipertension from "./pages/Hipertension"; // Importamos Hipertension
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,11 +27,18 @@ function App() {
       <Navbar /> {/* Mostramos Navbar aquí */}
 
       <Routes>
+        
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="modelos3d" element={<Modelos3D />} />
+           
+          
         </Route>
+        <Route path="hipertension" element={<Hipertension />} />
+
+        
+        
       </Routes>
     </BrowserRouter>
   );

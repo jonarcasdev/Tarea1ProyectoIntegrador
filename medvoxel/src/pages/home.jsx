@@ -64,11 +64,11 @@ const Home = () => {
                y pueden aumentar el riesgo de accidente cerebrovascular o muerte súbita.</p>
             <button className="card-button">Saber más</button>
           </div>
-          <div className="card">
-            <h3>Hipertensión arterial (HTA)</h3>
+          <div className="card" > 
+            <h3>  Hipertensión arterial (HTA)</h3>
             <p>Es el aumento persistente de la presión arterial por encima de 140/90 mmHg, lo que sobrecarga el corazón y los vasos, 
               favoreciendo enfermedades cardíacas, renales y cerebrovasculares.</p>
-            <button className="card-button">Saber más</button>
+            <button className="card-button" onClick={() => window.location.href = "/hipertension"}>Saber más</button>
           </div>
         </div>
         <img src="virus.png" className="virus-icon" style={{ top: '10%', left: '5%' }} />
