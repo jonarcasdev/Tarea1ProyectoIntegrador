@@ -7,23 +7,28 @@
   body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    
+    background-color: white;
+
   }
   
   header {
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw; /* Takes full viewport width */
     background: linear-gradient(to right, #ffe1e1, #fd4875);
     color: white;
     padding: 50px 40px;
     z-index: 1000;
-    height: 80px; /* Más compacto */
+    height: 80px; /* More compact */
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
+
+
 
   .header-content {
     display: flex;
@@ -120,18 +125,22 @@
   
   .info {
     background: #49748b;
-    padding: 60px 20px;
+    padding: 40px 200px;
     position: relative;
     text-align: center;
+    width: 100vw; /* Takes full viewport width */
+    margin-left: calc(-50vw + 50%); /* Centers the section */
+    
   }
   
-  .info-card {
+.info-card {
     background: transparent;
     border: 2px solid white;
     padding: 30px;
     display: inline-block;
     position: relative;
-  }
+    text-align: justify;
+}
   
   .heartbeat {
     width: 100px;
@@ -139,12 +148,13 @@
     margin: 20px auto 0;
     background: url('heartbeat.png') center/contain no-repeat;
   }
-  
   .enfermedades {
     background: linear-gradient(to bottom, #ff0055, #ff3366);
-    padding: 60px 20px;
+    padding: 60px 0; /* Removed lateral padding */
     position: relative;
     overflow: hidden;
+    width: 100vw; /* Takes full viewport width */
+    margin-left: calc(-50vw + 50%); /* Centers the section */
   }
   
   .enfermedades h2 {
@@ -160,6 +170,7 @@
     max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
+    
   }
   
   .card {
@@ -233,4 +244,10 @@
   .footer-links div a:hover {
     color: white;
   }
+
+  canvas{
+    touch-action: none;
+  }
+
+  
   

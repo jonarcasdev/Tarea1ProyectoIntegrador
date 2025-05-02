@@ -6,20 +6,20 @@ import medvoxelLogo from "/src/assets/imagenes/Medvoxel.png";
 const Home = () => {
   return (
     <div>
-      <header>
-        <div className="header-content">
-          <div className="logo-nav">
-            <img src={medvoxelLogo} alt="Logo de MedVoxel" width="150" />
-            <nav>
-              <a href="#">Inicio</a>
-              <a href="#">Enfermedades</a>
-              <a href="#">Quiz</a>
-              <a href="#">Sobre nosotros</a>
-            </nav>
-          </div>
-          <h1>El corazón</h1>
-        </div>
-      </header>
+      <header className="header">
+  <div className="header-content">
+    <div className="logo-nav">
+      <img src={medvoxelLogo} alt="Logo de MedVoxel" width="150" />
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/enfermedades">Enfermedades</a>
+        <a href="/quiz">Quiz</a>
+        <a href="/sobre-nosotros">Sobre nosotros</a>
+      </nav>
+    </div>
+    <h1>El corazón</h1>
+  </div>
+</header>
 
       <section className="intro">
         <div className="intro-content">
